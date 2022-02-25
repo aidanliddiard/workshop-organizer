@@ -8,7 +8,10 @@ export async function fetchWorkshops() {
     return checkError(response);
 }
 
-
+export async function createParticipant(object) {
+    const response = await client.from('participants').insert(object);
+    return checkError(response);
+}
 
 export function getUser() {
     return client.auth.session() && client.auth.session().user;

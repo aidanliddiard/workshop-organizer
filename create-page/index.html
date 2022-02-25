@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Create Page</title>
+</head>
+<header>
+    <div class="gutter-right logo">
+        <img src="../assets/big-logo.png" />
+    </div>
+</header>    
+<button id="logout">Logout</button>
+<body>
+    <h1>Join a Workshop</h1>
+    <form id="join-form">
+        <label>Name: </label><input>
+        <select name="workshop-name" id="select"></select>
+    </form>
+    
+    <script type="module" src="./create-page.js"></script>
+</body>
+</html>
