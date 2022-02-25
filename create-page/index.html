@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/home.css">
-    <link rel="stylesheet" href="style.css">
     <title>Create Page</title>
 </head>
 <header>
@@ -18,11 +17,13 @@
     </div>
 </header>    
 <button id="logout">Logout</button>
+<a href="../other-page">Back to Workshops</a>
 <body>
     <h1>Join a Workshop</h1>
     <form id="join-form">
-        <label>Name: </label><input>
+        <label>Name: </label><input name="name">
         <select name="workshop-name" id="select"></select>
+        <button>Submit</button>
     </form>
     
     <script type="module" src="./create-page.js"></script>
