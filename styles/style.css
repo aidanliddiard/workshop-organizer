@@ -70,9 +70,6 @@ header img {
     height: var(--header-height);
 }
 
-p {
-    margin: var(--gutter);
-}
   
 footer {
     position: fixed;
