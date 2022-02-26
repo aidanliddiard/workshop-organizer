@@ -1,0 +1,10 @@
+a {
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
